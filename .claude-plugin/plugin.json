@@ -1,0 +1,9 @@
+{
+  "name": "tanstack-master",
+  "version": "1.0.0",
+  "description": "Complete TanStack Start documentation and best practices for building full-stack React applications without errors.",
+  "author": {
+    "name": "Kydaix"
+  },
+  "keywords": ["tanstack", "tanstack-start", "react", "full-stack", "ssr", "routing", "server-functions"]
+}
