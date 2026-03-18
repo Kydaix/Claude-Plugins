@@ -24,10 +24,10 @@ Claude Code plugin providing complete TanStack Start documentation and best prac
 
 ```bash
 # 1. Add the marketplace
-/plugin marketplace add Kydaix/TanStack-Master
+/plugin marketplace add Kydaix/Claude-Plugins
 
 # 2. Install the plugin
-/plugin install tanstack-master@tanstack-master
+/plugin install tanstack-master@claude-plugins
 ```
 
 ### Local Development
