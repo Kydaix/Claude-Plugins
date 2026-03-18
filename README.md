@@ -27,7 +27,7 @@ Claude Code plugin providing complete TanStack Start documentation and best prac
 /plugin marketplace add Kydaix/Claude-Plugins
 
 # 2. Install the plugin
-/plugin install tanstack-master@claude-plugins
+/plugin install tanstack-master@kydaix-plugins
 ```
 
 ### Local Development
