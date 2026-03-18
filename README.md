@@ -28,12 +28,15 @@ Claude Code plugin providing complete TanStack Start documentation and best prac
 
 # 2. Install the plugin
 /plugin install tanstack-master@kydaix-plugins
+
+# 3. Reload plugins
+/reload-plugins
 ```
 
 ### Local Development
 
 ```bash
-claude --plugin-dir /path/to/TanStack-Master/plugins/tanstack-master
+claude --plugin-dir /path/to/Claude-Plugins/plugins/tanstack-master
 ```
 
 ## What's Covered
