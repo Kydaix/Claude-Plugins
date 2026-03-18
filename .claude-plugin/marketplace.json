@@ -1,0 +1,15 @@
+{
+  "name": "tanstack-master",
+  "owner": {
+    "name": "Kydaix",
+    "url": "https://github.com/Kydaix"
+  },
+  "plugins": [
+    {
+      "name": "tanstack-master",
+      "source": "./plugins/tanstack-master",
+      "description": "Complete TanStack Start documentation and best practices — 3 skills + 1 reviewer agent for building full-stack React apps without errors.",
+      "version": "1.0.0"
+    }
+  ]
+}

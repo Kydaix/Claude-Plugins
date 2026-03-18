@@ -9,8 +9,9 @@ description: >-
   "configure the server entry point", "customize the client entry",
   "add shellComponent", "set up HeadContent and Scripts",
   "prerender pages", "configure crawlLinks",
+  "configure pendingComponent", "add loading states",
   or needs guidance on rendering modes, SSR, hydration, static generation,
-  error handling, or entry points in TanStack Start.
+  error handling, loading states, or entry points in TanStack Start.
 ---
 
 # TanStack Start Rendering
@@ -62,6 +63,7 @@ Decide SSR mode based on route params/search at request time. The function runs 
 ```tsx
 export const Route = createFileRoute('/docs/$docType/$docId')({
   validateSearch: z.object({ details: z.boolean().optional() }),
+  // params and search are wrapped in result objects with .status and .value
   ssr: ({ params, search }) => {
     if (params.status === 'success' && params.value.docType === 'sheet') {
       return false
@@ -99,9 +101,15 @@ import { ClientOnly } from '@tanstack/react-router'
 </ClientOnly>
 ```
 
-### Strategy 2: Suppress Hydration Warning
+### Strategy 2: useEffect for Client State
 
-For elements where server/client mismatch is expected (timestamps, random values).
+Defer client-specific values to after hydration:
+
+```tsx
+const [time, setTime] = useState<string | null>(null)
+useEffect(() => { setTime(new Date().toLocaleString()) }, [])
+return <span>{time ?? '—'}</span>
+```
 
 ### Strategy 3: Use `ssr: 'data-only'`
 
@@ -153,7 +161,7 @@ tanstackStart({
 
 ## ISR (Incremental Static Regeneration)
 
-Serve cached HTML and revalidate in the background.
+Serve cached HTML and revalidate in the background. ISR combines static prerendering with route-level cache control (`staleTime`/`gcTime`) and optional on-demand revalidation.
 
 ### Vite Config
 

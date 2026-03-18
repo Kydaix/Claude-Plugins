@@ -31,6 +31,8 @@ my-app/
 │   │       ├── index.tsx    # /posts
 │   │       └── $postId.tsx  # /posts/:postId (dynamic)
 │   ├── components/          # Reusable UI components
+│   ├── server.ts            # Server entry point
+│   ├── client.tsx           # Client entry point
 │   ├── router.tsx           # Router configuration
 │   └── routeTree.gen.ts     # Auto-generated route tree (DO NOT EDIT)
 ├── public/                  # Static assets

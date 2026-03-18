@@ -20,8 +20,20 @@ Claude Code plugin providing complete TanStack Start documentation and best prac
 
 ## Installation
 
+### Via Marketplace (recommended)
+
 ```bash
-claude --plugin-dir /path/to/TanStack-Master
+# 1. Add the marketplace
+/plugin marketplace add Kydaix/TanStack-Master
+
+# 2. Install the plugin
+/plugin install tanstack-master@tanstack-master
+```
+
+### Local Development
+
+```bash
+claude --plugin-dir /path/to/TanStack-Master/plugins/tanstack-master
 ```
 
 ## What's Covered

@@ -6,8 +6,8 @@ description: >-
   "implement authentication", "handle form submission", "create an API",
   "add input validation", "set up sessions", "manage cookies",
   "protect a route", "add auth", "create a database query",
-  "handle redirects", "set response headers", "create middleware chain",
-  "use createServerFn", "use createMiddleware", "set up observability",
+  "handle redirects", "create middleware chain",
+  "use createServerFn", "use createMiddleware",
   or needs guidance on server-side logic, execution model, data fetching,
   authentication, middleware, or server routes in TanStack Start.
 ---
@@ -112,6 +112,8 @@ export const Route = createFileRoute('/posts')({
 })
 
 // From a component with useServerFn + React Query
+import { useQuery } from '@tanstack/react-query'
+
 function PostList() {
   const getPosts = useServerFn(getServerPosts)
   const { data } = useQuery({
