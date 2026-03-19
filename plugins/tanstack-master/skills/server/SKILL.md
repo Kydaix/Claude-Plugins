@@ -8,8 +8,9 @@ description: >-
   "protect a route", "add auth", "create a database query",
   "handle redirects", "create middleware chain",
   "use createServerFn", "use createMiddleware",
+  "set up logging", "add Sentry", "create llms.txt",
   or needs guidance on server-side logic, execution model, data fetching,
-  authentication, middleware, or server routes in TanStack Start.
+  authentication, middleware, observability, or server routes in TanStack Start.
 ---
 
 # TanStack Start Server
@@ -229,6 +230,7 @@ For detailed patterns and complete examples, consult:
 - **`references/execution-model.md`** — Code execution patterns, boundaries, createServerOnlyFn, createClientOnlyFn, createIsomorphicFn
 - **`references/auth-and-sessions.md`** — Authentication patterns, useSession, login/logout, route protection, session cookies
 - **`references/server-routes.md`** — HTTP endpoint handlers, Request/Response API, dynamic params, co-located routes, server routes vs server functions
+- **`references/observability.md`** — Sentry integration, logging middleware, isomorphic logger, LLMO (llms.txt)
 
 ### Examples
 

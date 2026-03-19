@@ -10,8 +10,10 @@ description: >-
   "add shellComponent", "set up HeadContent and Scripts",
   "prerender pages", "configure crawlLinks",
   "configure pendingComponent", "add loading states",
+  "integrate React Query", "handle form submission", "render markdown",
+  "create a blog", "set up content collections",
   or needs guidance on rendering modes, SSR, hydration, static generation,
-  error handling, loading states, or entry points in TanStack Start.
+  error handling, loading states, forms, React Query, or entry points in TanStack Start.
 ---
 
 # TanStack Start Rendering
@@ -239,6 +241,7 @@ For detailed patterns and complete examples, consult:
 - **`references/ssr-and-hydration.md`** — Full SSR guide, selective SSR details, hydration error strategies, ClientOnly patterns
 - **`references/static-prerendering.md`** — Prerendering config, ISR setup, crawlLinks, on-demand revalidation, CDN integration
 - **`references/entry-points.md`** — Server entry (createStartHandler), client entry (StartClient/hydrateRoot), shellComponent, HeadContent, Scripts, CDN asset URLs
+- **`references/advanced-patterns.md`** — React Query integration (ensureQueryData, queryOptions), multi-tier caching (ISR + client + CDN headers), form handling (FormData, loading states, router.invalidate), error boundary details, rendering markdown/blog content
 
 ### Examples
 

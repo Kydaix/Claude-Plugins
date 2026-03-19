@@ -7,7 +7,8 @@ description: >-
   "set up path aliases", "configure SEO", "deploy TanStack Start", "host TanStack Start",
   "configure SPA mode", "set up file-based routing", "configure vite for TanStack Start",
   "create a layout", "add meta tags", "configure head content",
-  or needs guidance on TanStack Start project structure, configuration, routing, or setup.
+  "migrate from Next.js", "validate environment variables",
+  or needs guidance on TanStack Start project structure, configuration, routing, migration, or setup.
   Covers project initialization, Vite configuration, file-based routing, layouts,
   navigation, environment variables, import protection, path aliases, Tailwind CSS,
   SEO, hosting, and SPA mode.
@@ -221,6 +222,7 @@ For detailed patterns and complete examples, consult:
 - **`references/routing.md`** — Complete routing guide: dynamic routes, layouts, search params, loaders, beforeLoad, head, navigation patterns
 - **`references/configuration.md`** — Vite plugin options, import protection details, path aliases, Tailwind CSS integration, SPA mode details
 - **`references/databases-and-hosting.md`** — Database integration (Prisma, Drizzle), hosting/deployment (Node.js, Docker, Cloudflare, Vercel, Netlify, static export)
+- **`references/env-and-migration.md`** — Zod env validation, TypeScript env.d.ts declarations, Next.js migration guide (layout→root, API routes, loaders, dynamic params)
 
 ### Examples
 
