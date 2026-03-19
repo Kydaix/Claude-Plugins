@@ -9,7 +9,7 @@
       "name": "tanstack-master",
       "source": "./plugins/tanstack-master",
       "description": "Complete TanStack Start documentation and best practices — 3 skills + 1 reviewer agent for building full-stack React apps without errors.",
-      "version": "1.0.0"
+      "version": "1.2.0"
     }
   ]
 }
