@@ -239,3 +239,7 @@ For detailed patterns and complete examples, consult:
 - **`references/ssr-and-hydration.md`** — Full SSR guide, selective SSR details, hydration error strategies, ClientOnly patterns
 - **`references/static-prerendering.md`** — Prerendering config, ISR setup, crawlLinks, on-demand revalidation, CDN integration
 - **`references/entry-points.md`** — Server entry (createStartHandler), client entry (StartClient/hydrateRoot), shellComponent, HeadContent, Scripts, CDN asset URLs
+
+### Examples
+
+- **`examples/ssr-patterns.md`** — 7 complete SSR/rendering patterns (full SSR, client-only, data-only, ClientOnly, dynamic SSR, ISR, SPA shell)

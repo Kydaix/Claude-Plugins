@@ -228,3 +228,9 @@ For detailed patterns and complete examples, consult:
 - **`references/middleware.md`** — Complete middleware guide: types, composing, context, use cases
 - **`references/execution-model.md`** — Code execution patterns, boundaries, createServerOnlyFn, createClientOnlyFn, createIsomorphicFn
 - **`references/auth-and-sessions.md`** — Authentication patterns, useSession, login/logout, route protection, session cookies
+- **`references/server-routes.md`** — HTTP endpoint handlers, Request/Response API, dynamic params, co-located routes, server routes vs server functions
+
+### Examples
+
+- **`examples/auth-flow.md`** — Complete authentication flow (session, login/logout, middleware, protected routes, login form)
+- **`examples/crud-api.md`** — Full CRUD with Zod validation, server functions, and React components

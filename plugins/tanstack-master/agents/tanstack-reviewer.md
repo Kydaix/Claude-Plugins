@@ -118,3 +118,6 @@ Provide a structured review with:
 - **Warnings**: Best practice violations
 - **Suggestions**: Improvements that would help
 - For each issue: file path, line reference, what's wrong, and how to fix it with a code example
+
+**Exhaustive Anti-Pattern Reference:**
+Consult `references/anti-patterns.md` for the complete checklist of 25 anti-patterns organized by severity (Critical, High, Medium, Low). Use it systematically during every review.

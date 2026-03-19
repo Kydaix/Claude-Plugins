@@ -219,4 +219,9 @@ tanstackStart({
 For detailed patterns and complete examples, consult:
 - **`references/project-setup.md`** — Full project setup guide, tsconfig, dependencies, entry points (server.ts, client entry)
 - **`references/routing.md`** — Complete routing guide: dynamic routes, layouts, search params, loaders, beforeLoad, head, navigation patterns
-- **`references/configuration.md`** — Vite plugin options, import protection details, path aliases, Tailwind CSS integration, hosting/deployment, SPA mode details
+- **`references/configuration.md`** — Vite plugin options, import protection details, path aliases, Tailwind CSS integration, SPA mode details
+- **`references/databases-and-hosting.md`** — Database integration (Prisma, Drizzle), hosting/deployment (Node.js, Docker, Cloudflare, Vercel, Netlify, static export)
+
+### Examples
+
+- **`examples/minimal-app.md`** — Complete copy-paste ready TanStack Start application (all files)
